@@ -1,29 +1,47 @@
+@font-face {
+   font-family: [QuestaSansRegular];
+   src: url([fonts\FontsFree-Net-2-QuestaSansRegular.ttf]);
+}
+
 body {
    background-image: url("images/IMG_3483.jpg");
    background-color: #cccccc;
-   width: auto;
-  }
+   width: 100%;
+   font-family: QuestaSansRegular;
+}
 
-@media only screen and (max-width: 540px){
    .image-nav{
       background-image: url("images/IMG_3483.jpg");
       background-color: #cccccc;
    }
 
    .sections{
-    display: inline-flex;
     flex-direction: row;
     width: 100%;
    }
 
+   .conteiner-imglaura{
+      display: flex;
+      width: 100%;  
+      justify-content: center;
+   }
+
    .img-laura{
     width: 70%;
-    justify-content: center;
    }
 
    .descricao{
       color: #6A5648;
       text-align: center;
+      font-size: 17px;
+      padding: 10px;
+   }
+
+   .descricao-servicos{
+      color: #6A5648;
+      text-align: justify;
+      font-size: 15px;
+      padding: 10px;
    }
 
    .row>*{
@@ -37,22 +55,26 @@ body {
       justify-content: space-between;
   }
 
-  .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
-   color: #e4c8dc;
-   }
-
   .logo{
    width: 55%;
   }
 
+  .conteiner-logo-menu{
+   display: flex;
+   width: 100%;
+   justify-content: center;
+  }
+
   .logo-menu{
-   width: 97%;
+   width: 50%;
+   margin-bottom: 30%;
   }
 
   .titulo{
    color: #A17B27;
    font-weight: lighter;
    margin-left: 5px;
+   font-size: 25px;
   }
 
   .portfolio{
@@ -69,12 +91,200 @@ body {
 
    .servicos{
       width: 40%;
+      margin-left: 5px;
    }
 
-   .botao{
+   .conteiner-botao{
+      display: flex;
       border-radius: 15px;
-      color: #666565;
-      
+      justify-content: flex-end;
    }
 
+   .contatos{
+      display: flex;
+      width: 100%;
+      justify-content: flex-end;
+   }
+
+   .contatos-image{
+      margin-bottom: 20px;
+      width: 20px;
+   }
+
+   .dados-contatos{
+      font-size: 15px;
+      color: #6A5648;
+      text-decoration: none;
+      padding: 5px;
+   }
+
+   .endereço{
+      color: #6A5648;
+      text-align: center;
+      font-size: 13px;
+      padding: 10px;
+   }
+
+   .conteiner-mapa{
+      display: flex;
+      width: 100%;
+   }
+
+   .mapa{
+      width: 100%;
+      height: auto;
+      margin-left: 20px;
+      margin-bottom: 15px;
+   }
+
+   footer{
+      display: flex;
+      justify-content: center;
+      color: #6A5648;
+   }
+
+@media only screen and (min-width: 768px){
+
+   .image-nav{
+      background-image: url("images/IMG_3483.jpg");
+      background-color: #cccccc;
+   }
+
+   .sections{
+   flex-direction: row;
+   width: 100%;
+   }
+
+   .conteiner-imglaura{
+      display: flex;
+      width: 50%;  
+      justify-content: center;
+   }
+
+   .img-laura{
+   width: 50%;
+   margin-left: 20px;
+   }
+
+   .conteiner-descricao{
+      display: flex;
+      width: 40%;
+      justify-content: center;
+   }
+
+   .descricao{
+      text-align: justify;
+      font-size: 20px;
+      margin-top: 20px;
+   }
+
+   .row>*{
+   padding-right: 0;
+   }
+
+   .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: space-between;
+   }
+
+   .logo{
+      width: 25%;
+   }
+
+   .logo-menu{
+      width: 40%;
+   }
+
+   .titulo{
+      margin-left: 15px;
+      font-size: 30px;
+   }
+
+   img, svg {
+      vertical-align: baseline;
+   }
+
+   .conteiner-portfolio{
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+   }
+
+   .conteiner-servicos{
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+   }
+
+   .titulo-servicos{
+      color: #A17B27;
+      font-weight: lighter;
+      margin-left: 15px;
+      font-size: 20px;
+   }
+
+   .descricao-servicos{
+      font-size: 17px;
+   }
+
+   .images-portfolio{
+      width: 30%;
+   }
+
+   .portfolio{
+      width: 100%;
+      height: auto;
+   }
+
+   .servicos{
+      width: 50%;
+   }
+
+   .conteiner-botao{
+      display: flex;
+      border-radius: 15px;
+      justify-content: flex-end;
+   }
+
+   .contatos{
+      display: flex;
+      width: 100%;
+      justify-content: flex-end;
+   }
+
+   .contatos-image{
+      margin-bottom: 20px;
+      width: 20px;
+   }
+
+   .dados-contatos{
+      font-size: 15px;
+      color: #6A5648;
+      text-decoration: none;
+      padding: 5px;
+   }
+
+   .endereço{
+      font-size: 20px;
+   }
+
+   .conteiner-mapa{
+      display: flex;
+      width: 100%;
+   }
+
+   .mapa{
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+      margin-left: 0;
+   }
+
+   footer{
+      display: flex;
+      justify-content: center;
+      color: #6A5648;
+   }
 }
