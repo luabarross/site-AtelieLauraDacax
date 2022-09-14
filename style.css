@@ -165,6 +165,12 @@ body {
 
 @media only screen and (min-width: 768px){
 
+   body {
+      background-image: url("http://atelielauradacax.com/assets/images/IMG_3483.jpg");
+      background-color: #cccccc;
+      font-family: QuestaSansRegular;
+   }
+
    .image-nav{
       background-image: url("http://atelielauradacax.com/assets/images/IMG_3483.jpg");
       background-color: #cccccc;
