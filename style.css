@@ -1,23 +1,26 @@
 @font-face {
    font-family: [QuestaSansRegular];
-   src: url([fonts\FontsFree-Net-2-QuestaSansRegular.ttf]);
+   src: url([http://atelielauradacax.com/assets/fonts/FontsFree-Net-2-QuestaSansRegular.ttf]);
 }
 
 body {
-   background-image: url("images/IMG_3483.jpg");
+   background-image: url("http://atelielauradacax.com/assets/images/IMG_3483.jpg");
    background-color: #cccccc;
+   background-size: cover;
    width: 100%;
    font-family: QuestaSansRegular;
 }
 
    .image-nav{
-      background-image: url("images/IMG_3483.jpg");
+      background-image: url("http://atelielauradacax.com/assets/images/IMG_3483.jpg");
       background-color: #cccccc;
+      background-size: cover;
    }
 
    .sections{
-    flex-direction: row;
-    width: 100%;
+      display: flex;
+      flex-direction: row;
+      width: 100%;
    }
 
    .conteiner-imglaura{
@@ -42,6 +45,12 @@ body {
       text-align: justify;
       font-size: 15px;
       padding: 10px;
+   }
+
+   .descricao-outros{
+      color: #6A5648;
+      font-size: 15px;
+      margin-left: auto;
    }
 
    .row>*{
@@ -77,8 +86,14 @@ body {
    font-size: 25px;
   }
 
+  .conteiner-portfolio{
+      display: flex;
+      width: 100%;
+  }
+
   .portfolio{
-   width: 100%;
+      width: 100%;
+      margin-left: 8px;
   }
 
   img, svg {
@@ -92,6 +107,13 @@ body {
    .servicos{
       width: 40%;
       margin-left: 5px;
+   }
+
+   .titulo-servicos{
+      color: #A17B27;
+      font-weight: lighter;
+      margin-left: 15px;
+      font-size: 20px;
    }
 
    .conteiner-botao{
@@ -133,21 +155,23 @@ body {
    .mapa{
       width: 100%;
       height: auto;
-      margin-left: 20px;
       margin-bottom: 15px;
+      margin-left: 20px;
    }
 
    footer{
       display: flex;
       justify-content: center;
       color: #6A5648;
+      font-size: 12px;
    }
 
 @media only screen and (min-width: 768px){
 
    .image-nav{
-      background-image: url("images/IMG_3483.jpg");
+      background-image: url("http://atelielauradacax.com/assets/images/IMG_3483.jpg");
       background-color: #cccccc;
+      background-size: cover;
    }
 
    .sections{
@@ -190,7 +214,7 @@ body {
    }
 
    .logo{
-      width: 25%;
+      width: 20%;
    }
 
    .logo-menu{
@@ -267,7 +291,7 @@ body {
    }
 
    .endereço{
-      font-size: 20px;
+      font-size: 15px;
    }
 
    .conteiner-mapa{
@@ -286,5 +310,6 @@ body {
       display: flex;
       justify-content: center;
       color: #6A5648;
+      font-size: 15px;
    }
 }
