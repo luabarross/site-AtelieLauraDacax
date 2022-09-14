@@ -6,15 +6,12 @@
 body {
    background-image: url("http://atelielauradacax.com/assets/images/IMG_3483.jpg");
    background-color: #cccccc;
-   background-size: cover;
-   width: 100%;
    font-family: QuestaSansRegular;
 }
 
    .image-nav{
       background-image: url("http://atelielauradacax.com/assets/images/IMG_3483.jpg");
       background-color: #cccccc;
-      background-size: cover;
    }
 
    .sections{
