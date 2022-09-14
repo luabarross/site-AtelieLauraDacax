@@ -168,12 +168,11 @@ body {
    .image-nav{
       background-image: url("http://atelielauradacax.com/assets/images/IMG_3483.jpg");
       background-color: #cccccc;
-      background-size: cover;
    }
 
    .sections{
-   flex-direction: row;
-   width: 100%;
+      flex-direction: row;
+      width: 100%;
    }
 
    .conteiner-imglaura{
@@ -183,8 +182,8 @@ body {
    }
 
    .img-laura{
-   width: 50%;
-   margin-left: 20px;
+      width: 50%;
+      margin-left: 20px;
    }
 
    .conteiner-descricao{
@@ -200,7 +199,7 @@ body {
    }
 
    .row>*{
-   padding-right: 0;
+      padding-right: 0;
    }
 
    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
